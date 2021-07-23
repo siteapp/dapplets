@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face {
+    font-family: 'SF-Pro';
+    src: local('Lato'), url(./../../fonts/SF-Pro.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'SF-Pro-Text-Black';
+    src: local('Lato'), url(./../../fonts/SF-Pro-Text-Black.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'SF-Pro-Display-Regular';
+    src: local('Lato'), url(./../../fonts/SF-Pro-Display-Regular.otf) format('opentype');
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.item{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px;
+    position: static;
+    left: 0px;
+    top: 1977px;
+    background: linear-gradient(
+            180deg
+            , rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(255, 255, 255, 0.3);
+    box-shadow: 10px 10px 40px rgb(156 185 222 / 10%);
+    backdrop-filter: blur(20px);
+}
+
+.burger,
+.icon,
+.nameDapplets,
+.description,
+.author,
+.tags {
+    margin-right: 2rem;
+}
+.burger{}
+.icon{}
+.nameDapplets{
+    width: 212px;
+}
+.description{}
+.author{}
+.tags{}
+
+.title{
+    font-family: 'SF-Pro-Display-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+.address{
+    font-family: 'SF-Pro';
+    color: #999999;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 3px;
+}
+
+.description{
+    font-family: 'SF-Pro';
+    color: #565555;
+    font-size: 16px;
+    line-height: 19px;
+    width: 270px;
+}
+
+.author{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #BBBBBB;
+    width: 115px;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    flex-wrap: wrap;
+}
+.tags .tag{
+    font-family: 'Roboto', sans-serif;
+    margin: 4px;
+    background: #5241BF;
+    border-radius: 4px;
+    padding: 3px 3px 2px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    line-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tags .close{
+    margin-left: 4px;
+}
+
+.button{
+    background: #0085FF;
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 6px 20px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
